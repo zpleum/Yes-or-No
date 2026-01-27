@@ -18,7 +18,7 @@ const sourGummy = Sour_Gummy({
 });
 
 export const metadata: Metadata = {
-  title: "Mu he he he?",
+  title: "Do you love me?",
   description: "A cute interactive question page.",
 };
 
