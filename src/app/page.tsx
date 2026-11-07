@@ -209,7 +209,7 @@ export default function Home() {
         <h1
           className={`text-5xl md:text-7xl font-light tracking-tight mb-16 animate-float ${textStyles[scaryLevel]}`}
         >
-          Do you love me?
+          กลับมาหาเค้าได้ไหม?
         </h1>
 
         {/* Dynamic Buttons */}
@@ -220,7 +220,7 @@ export default function Home() {
             className={`px-12 py-5 text-2xl font-medium rounded-full cursor-pointer transition-all duration-500 shadow-lg active:scale-95 ${yesBtnStyles[scaryLevel]}`}
             style={{ transition: 'all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1)' }}
           >
-            YES
+            ได้
           </div>
 
           {/* NO Button - Fixed position when not hovered */}
@@ -237,7 +237,7 @@ export default function Home() {
             }}
             className={`px-12 py-5 text-2xl font-medium rounded-full cursor-pointer transition-all border shadow-sm active:scale-95 ${noBtnStyles[scaryLevel]} ${isMoving ? 'duration-500' : 'duration-0'}`}
           >
-            NO
+            ไม่
           </div>
         </div>
       </div>
@@ -256,14 +256,14 @@ export default function Home() {
             <div className="relative z-10 flex flex-col items-center">
               <Bouquet onRoseClick={handleHeroRoseClick} />
               <h2 className="text-4xl font-light tracking-tight text-pink-600 mb-10 animate-slide-up">
-                I love you too!
+                เย้ยยย!
               </h2>
               <div
                 onClick={closePopup}
                 className="px-14 py-4 bg-pink-500 text-white text-lg font-medium rounded-full cursor-pointer hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg hover:shadow-pink-200/50"
                 style={{ transition: 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)' }}
               >
-                CLOSE
+                ปิด
               </div>
             </div>
           </div>
